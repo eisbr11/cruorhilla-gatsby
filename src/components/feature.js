@@ -1,5 +1,5 @@
-import React from 'react'
-import SbEditable from 'storyblok-react'
+import React from 'react';
+import SbEditable from 'storyblok-react';
 
 const Feature = (props) => (
   <SbEditable content={props.blok}>
@@ -7,6 +7,6 @@ const Feature = (props) => (
       <h2>{props.blok.name}</h2>
     </div>
   </SbEditable>
-)
+);
 
-export default Feature
+export default Feature;
